@@ -4,6 +4,8 @@
 	padding: 0;
 }
 
+/* Page Sections */
+
 body {
 	color: #444;
 	font-family: sans-serif;
@@ -46,7 +48,7 @@ body {
 	padding-right: 40px; */
 	padding: 20px 40px;
 	margin-bottom: 60px;
-	height: 80px;
+	/* height: 80px; */
 }
 
 nav {
@@ -150,6 +152,20 @@ li:nth-child(even) {
 /* Misconception: this won't work */
 article p:first-child {
 	color: red;
+}
+
+nav a:link {
+	/* background-color: orangered;
+	margin: 20px;
+	padding: 20px;
+	display: block; */
+	margin-right: 30px;
+	margin-top: 10px;
+	display: inline-block;
+}
+
+nav a:link:last-child {
+	margin-right: 0;
 }
 
 /* LVHA */
