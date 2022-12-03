@@ -111,6 +111,7 @@ input {
 	border: none;
 	border-top: 5px solid #000;
 	box-sizing: border-box;
+	cursor:pointer;
 }
 
 input:hover {
